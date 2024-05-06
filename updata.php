@@ -35,9 +35,9 @@
                 <input type="text" id="id" name="id">
             </div>
 
-            <div class="form-group">
+            <div class="form-group" align="center">
                 <label for="data">Data do Evento:</label>
-                <input type="text" maxlength="10" id="data" pattern="\d{2}/\d{2}/\d{4}" placeholder="DD/MM/AAAA" name="data">
+                <input type="date" id="data" name="data">
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar">

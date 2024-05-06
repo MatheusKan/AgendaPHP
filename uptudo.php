@@ -38,19 +38,11 @@
                 <input type="text" id="nome" name="nome">
             </div>
 
-            <div class="form-group">
-                <label for="data">Data do Evento:</label>
-                <input type="text" maxlength="10" placeholder="DD/MM/AAAA" id="data" name="data">
-            </div>
-
-            <div class="form-group">
-                <label for="inicio">Hora de Início do Evento:</label>
-                <input type="text" id="inicio" name="inicio">
-            </div>
-
-            <div class="form-group">
-                <label for="fim">Hora de Fim do Evento:</label>
-                <input type="text" id="fim" name="fim">
+            <div class="form-group" align="center">
+                <label for="data" >Data e Horário de Inicio e Fim do Evento:</label>
+                <input type="date" id="data" name="data">
+                <input type="time" id="inicio" name="inicio">
+                <input type="time" id="fim" name="fim">
             </div>
 
             <div class="form-group">

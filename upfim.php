@@ -35,9 +35,9 @@
                 <input type="text" id="id" name="id">
             </div>
 
-            <div class="form-group">
+            <div class="form-group" align="center">
                 <label for="fim">Hora de Fim do Evento:</label>
-                <input type="text" id="fim" name="fim">
+                <input type="time" id="fim" name="fim">
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar">

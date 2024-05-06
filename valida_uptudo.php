@@ -33,11 +33,6 @@
     $id = $_POST['id'];
     $nome = $_POST['nome'];
     $data = $_POST['data'];
-        $result = explode('/',$data);
-        $dia = $result[0];
-        $mes = $result[1];
-        $ano = $result[2];
-    $data = $ano.'-'.$mes.'-'.$dia;
     $inicio = $_POST['inicio'];
     $fim = $_POST['fim'];
     $desc = $_POST['desc'];   
