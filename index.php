@@ -3,31 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar</title>
     <link rel="stylesheet" href="assets/style.css">
-    <title>Index</title>
-    <style type="text/css">
-body {
-    background-image: url(assets/agenda.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 666px;  
-    width: 100%;
-    height: 100%;
-}
-
+    <style>
+        .container{
+            margin-top:9%;
+        }
     </style>
-
 </head>
 <body>
-<div id="sidebar-left">
-    <ul>
-        <li><a href="index.php">Index</a></li>
-        <li><a href="cadastrar.php">Cadastar evento</a></li>
-        <li><a href="Consultar.php">Consultar evento</a></li>
-        <li><a href="listar.php">Listar todos os eventos</a></li>
-        <li><a href="atualizar.php">Atualizar evento</a></li>
-        <li><a href="remover.php">Remover evento</a></li>
-    </ul>
+<div id="sidebar-left"> 
 </div>
 
 <div id="content">
@@ -37,7 +22,19 @@ body {
 <div id="sidebar-right">
 
 </div>
-
-
+<div class="container">
+        <h1>Login</h1>
+        <form action="verificar.php" method="post">
+<div class="form-group">
+                <label for="usuario">Informe usuário:</label>
+                <input type="text" id="nome" name="nome">
+</div>
+<div class="form-group">
+                <label for="senha">Informe senha:</label>
+                <input type="password" id="senha" name="senha">
+</div>
+<input type="submit" value="Entrar">
+</form>
+</div>
 </body>
 </html>
