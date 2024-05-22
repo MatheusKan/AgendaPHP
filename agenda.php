@@ -10,7 +10,7 @@ body {
     background-image: url(assets/agenda.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 666px;  
+    padding-top: 696px;  
     width: 100%;
     height: 100%;
 }
@@ -28,10 +28,6 @@ body {
         <li><a href="atualizar.php">Atualizar evento</a></li>
         <li><a href="remover.php">Remover evento</a></li>
     </ul>
-</div>
-
-<div id="content">
-    <h1>Bem_Vindo</h1>
 </div>
 
 <div id="sidebar-right">
